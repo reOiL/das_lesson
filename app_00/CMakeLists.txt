@@ -1,0 +1,14 @@
+project(app_00)
+
+add_executable(${PROJECT_NAME}
+    main.cpp
+)
+
+target_link_libraries(${PROJECT_NAME}
+    libDaScript
+)
+
+set_target_properties(${PROJECT_NAME}
+    PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+)

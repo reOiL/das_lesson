@@ -20,3 +20,5 @@ set(DAS_BUILD_TOOLS NO)
 
 add_subdirectory(daScript)
 include_directories(daScript/include)
+
+add_subdirectory(app_00)
