@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/reOiL/das_lesson
 git submodule update --init --recursive
 ```
 
